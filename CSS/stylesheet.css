@@ -1,7 +1,19 @@
+h1 {
+  color: white;
+  padding: 20px;
+  background-color: green;
+}
+
 .container-fluid {
   background-color: green;
 }
 .container-fluid h1 {
+  color: white;
+  padding: 20px;
+  background-color: green;
+}
+
+h1 {
   color: white;
   padding: 20px;
   background-color: green;
