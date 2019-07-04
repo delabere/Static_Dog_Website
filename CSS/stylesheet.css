@@ -10,4 +10,25 @@
   padding: 20px;
 }
 
+caption {
+  padding-left: 20px;
+  color: #017bff;
+}
+
+#tablecap {
+  padding-left: 20px;
+}
+
+#small {
+  background-color: red;
+}
+
+#medium {
+  background-color: yellow;
+}
+
+#large {
+  background-color: green;
+}
+
 /*# sourceMappingURL=stylesheet.css.map */
