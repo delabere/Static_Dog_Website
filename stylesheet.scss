@@ -1,8 +1,7 @@
 $theme-blue: #017bff;
 $table-lrg: #cc5050;
 $table-med: #ccca50;
-$table-sml: #6dcc50;
-// Small devices (landscape phones, 576px and up)
+$table-sml: #6dcc50; // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {}
 // Medium devices (tablets, 768px and up)
 @media (max-width: 768px) {}
@@ -48,20 +47,19 @@ caption {
   }
 }
 
-.carousel-inner>div>img{
-max-width: 50%;
-display: block;
-margin-left: auto;
-margin-right: auto;
+.carousel-inner > div > img {
+  max-width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-@media (max-width: 768px){
-.carousel-inner>div>img{
-max-width: 100%;
-display: block;
-margin-left: auto;
-margin-right: auto;
-}
+@media (max-width: 768px) {
+  .carousel-inner > div > img {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 thead > tr {
@@ -82,4 +80,9 @@ thead > tr {
 
 #large {
   background-color: $table-lrg;
+}
+
+#about-info{
+padding: 50px
+
 }
