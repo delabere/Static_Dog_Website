@@ -31,12 +31,20 @@ caption {
 }
 
 .carousel-inner > div > img {
-  max-width: 80%;
+  max-width: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
+@media (max-width: 768px) {
+  .carousel-inner > div > img {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 thead > tr {
   font-size: 20px;
 }
