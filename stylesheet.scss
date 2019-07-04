@@ -1,5 +1,23 @@
+$theme-blue: #017bff;
+$table-lrg: #cc5050;
+$table-med: #ccca50;
+$table-sml: #6dcc50;
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}
+
 .container-fluid {
-  background-color: #017bff;
+  background-color: $theme-blue;
 
   h1 {
     color: white;
@@ -13,21 +31,29 @@
 
 caption {
   padding-left: 20px;
-  color: #017bff;
+  color: $theme-blue;
 }
+
+@media (min-width: 1200px) {
+  caption {
+    padding-left: 20px;
+    color: green;
+  }
+}
+
 
 #tablecap {
   padding-left: 20px;
 }
 
 #small {
-  background-color: red;
+  background-color: $table-sml;
 }
 
 #medium {
-  background-color: yellow;
+  background-color: $table-med;
 }
 
 #large {
-  background-color: green;
+  background-color: $table-lrg;
 }

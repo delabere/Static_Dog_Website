@@ -15,20 +15,26 @@ caption {
   color: #017bff;
 }
 
+@media (min-width: 1200px) {
+  caption {
+    padding-left: 20px;
+    color: green;
+  }
+}
 #tablecap {
   padding-left: 20px;
 }
 
 #small {
-  background-color: red;
+  background-color: #6dcc50;
 }
 
 #medium {
-  background-color: yellow;
+  background-color: #ccca50;
 }
 
 #large {
-  background-color: green;
+  background-color: #cc5050;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */
