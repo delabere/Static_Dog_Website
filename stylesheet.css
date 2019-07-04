@@ -6,6 +6,13 @@
   padding: 20px;
 }
 
+@media (max-width: 768px) {
+  .container-fluid h1 {
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+  }
+}
 .col {
   padding: 20px;
 }

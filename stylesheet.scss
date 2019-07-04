@@ -7,7 +7,7 @@ $table-sml: #6dcc50;
 @media (min-width: 576px) {}
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {}
+@media (max-width: 768px) {}
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {}
@@ -22,6 +22,17 @@ $table-sml: #6dcc50;
   h1 {
     color: white;
     padding: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-fluid {
+
+    h1 {
+      color: white;
+      padding: 20px;
+      font-size: 15px
+    }
   }
 }
 
