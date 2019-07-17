@@ -47,18 +47,20 @@ caption {
   }
 }
 
-.carousel-inner > div > img {
-  max-width: 50%;
+%carousel-shared{
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
+.carousel-inner > div > img {
+  @extend %carousel-shared;
+    max-width: 50%;
+}
+
 @media (max-width: 768px) {
   .carousel-inner > div > img {
     max-width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 
@@ -82,7 +84,6 @@ thead > tr {
   background-color: $table-lrg;
 }
 
-#about-info{
-padding: 50px
-
+#about-info {
+  padding: 50px;
 }
